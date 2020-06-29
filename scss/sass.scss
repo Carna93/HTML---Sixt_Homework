@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+$osnovni-font: 12px;
+body{
+    position: relative;
+    background-image: url("../images/bg.jpg");
+    margin: 0;
+    padding: 0;
+    header{
+        background-color: red;
+        color: black;
+        column-count: 2;
+        height: 20%;
+        width: 70%;
+        margin: 0 auto 1em auto;
+        padding: 0em 0 0.5em 0.5em;
+        border-radius: 0 0 1em 1em;
+        .prvi-div{
+            margin: 0 0 0 40%;
+            .slikeHeadera{
+                border-top: 50px solid black;
+                background-color: black;
+                border-bottom: 4px solid black;
+                border-radius: 0 0 2em 2em;
+                width: 10%;
+                padding: 0 1% 0 1%;
+                margin: 0 2.5% 0 2.5%;
+            }
+        }
+        h1{
+            margin: 0.1em 0 0 0.5em;
+            font-family: 'Lobster', cursive;
+            font-size: $osnovni-font*5;
+        }
+    }
+
+    main{
+        position: relative;
+        background-color: black;
+        color: white;
+        height: 70%;
+        width: 70%;
+        margin: 0 auto 1em auto;
+        padding: 0em 0 0.5em 0.5em;
+        .prvi-div-main{
+            margin: 5% auto;
+            padding-top: 50px;
+            column-count: 2;
+            .slikaPrvogDivaMaina{
+                width: 70%;
+            }
+            .prviPodNaslov{
+                margin: 0% 0 0 56%;
+                padding: 0% 5% 0 5%;
+                width: 30%;
+                text-align: justify;
+                background-color: white;
+                color: black;
+                font-family: 'Lobster', cursive;
+                font-size: $osnovni-font*2.5; 
+            }
+            .prviParagraf{
+                text-align: justify;
+                padding: 1em;
+                margin: 0;
+            }
+        }
+        .drugi-div-main{
+            margin: 0 1em 2em 0;
+            column-count: 3;
+            text-align: justify;
+            .podnaslovDiva{
+                background-color: red;
+                color: white;
+                font-family: 'Lobster', cursive;
+                font-size: $osnovni-font*1.5; 
+                margin: 0;
+            }
+            .div21{
+                padding: 0em 0em 2em 1em;
+            }
+            .div22{
+                padding: 0em 0em 2em 1em;
+            }
+            .div23{
+                padding: 0em 0em 2em 1em;
+            }
+            div + div{
+                border-left: 1px solid white;
+                padding-left: 0.5em;
+            }
+            input{
+                background-color: white;
+                color: black;
+                text-align: center;
+            }
+        }
+    }
+    
+    footer{
+        height: 10%;
+        width: 70%;
+        margin: 0 auto 1em auto;
+        background-color: white;
+        border-radius: 10px;
+        .div-fotera{
+            margin: auto;
+            padding: 0.3em;
+        }
+        .slikeFotera{
+            width: 2%;
+            
+        }
+    }
+
+}
+
